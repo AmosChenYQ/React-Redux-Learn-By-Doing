@@ -1,3 +1,8 @@
+## Project Description
+This project is a personal learn-by doing project for redux-react
+
+## Origianl Description
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
