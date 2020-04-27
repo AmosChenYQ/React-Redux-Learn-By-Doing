@@ -21,9 +21,9 @@ const getVisibleTodos = (todos, filter) => {
 }
 
 // map store object to component props, in this case it is todos
-const mapStateToProps = state => ({
-  todos: getVisibleTodos(state.todos, state.visibilityFilters)
-})
+const mapStateToProps = state => {
+  return { todos: getVisibleTodos(state.todos, state.visibilityFilter) }
+}
 
 // map a handler function to a dispatch a action to store function
 const mapDispatchToProps = (dispatch) => ({
