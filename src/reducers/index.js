@@ -4,7 +4,6 @@
 // store object will like this {todo: [], visibilityFilter: "..."}
 // 
 
-
 import { combineReducers } from 'redux'
 import todos from './todos'
 import visibilityFilter from './visibilityFilter'
